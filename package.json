@@ -1,10 +1,10 @@
 {
   "name": "nothis-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "author": "Joel Thoms",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/NoThis.js",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && babel src --out-dir dist --ignore test.js",
