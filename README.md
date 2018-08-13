@@ -1,4 +1,6 @@
-# React #nothis
+# NoThis.Component for React
+
+My contribution to the `#nothis` movement is `NoThis.Component`, a this-free way of creating a React component.
 
 Create React component without the need for `this`. The context is passed in as the first argument to all methods.
 
@@ -14,7 +16,7 @@ npm install -P nothis-react
 
 ## NoThis.Component
 
-`NoThis.Component` works in a familiar way to `React.Component`.
+`NoThis.Component` works in a familiar way to `React.Component` because it inherits from `React.Component`.
 
 The context you would previously access via `this` is available as the first function argument.
 
@@ -41,7 +43,7 @@ class Counter extends NoThis.Component {
 
 ## Argument Destructuring
 
-You to also love destructuring, then code like this now becomes possible!
+If you love destructuring as much as I do, then code like this now becomes possible!
 
 ```javascript
 import React from 'react'
