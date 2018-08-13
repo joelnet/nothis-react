@@ -65,3 +65,15 @@ class Counter extends NoThis.Component {
   }
 }
 ```
+
+## Excluding Functions
+
+A function can be excluded from `nothis` by writing it as a class property.
+
+```javascript
+class Counter extends NoThis.Component {
+  increment = () => {
+    this.setState(({ count }) => ({ count: count + 1 }))
+  }
+}
+```

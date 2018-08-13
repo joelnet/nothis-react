@@ -1,0 +1,4 @@
+__mocks__/
+lib/
+**/*.test.js
+.npmrc
