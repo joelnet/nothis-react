@@ -1,10 +1,12 @@
 # NoThis.Component for React
 
-My contribution to the `#nothis` movement is `NoThis.Component`, a this-free way of creating a React component.
+A this-free way of creating a React component.
 
-Create React component without the need for `this`. The context is passed in as the first argument to all methods.
+Create React component without the need for `this`. The context is passed in as the first argument to all methods (unless excluded).
 
 Save your future self some time and never debug `this` again!
+
+NULL is considered to the a Billion dollar mistake. How much will `this` cost us?
 
 ## Installation
 
