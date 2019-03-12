@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is deprecated. Please use React Hooks!
+
 # NoThis.Component for React
 
 A this-free way of creating a React component.
